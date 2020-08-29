@@ -1,0 +1,21 @@
+.content {
+  grid-area: content;
+}
+
+.avatar {
+  width: 256px;
+  height: 256px;
+  -webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+
+figcaption {
+  width: 256px;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: #222;
+  color: #fff;
+  font: italic sans-serif;
+  padding: 3px;
+  text-align: center;
+}
