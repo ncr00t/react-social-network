@@ -1,8 +1,8 @@
 import React from "react";
 import Post from "./Post/Post.jsx";
-import posts from './Posts.module.css'
+import posts from "./Posts.module.css"
 
-function Posts() {
+function Posts(props) {
   return (
     <div className={posts.item}>
       Posts
@@ -11,7 +11,7 @@ function Posts() {
         <textarea></textarea>
         <button>Submit</button>
       </div>
-      <Post message='message'/>
+      <Post message="message" amountLikes="50"/>
     </div>
   );
 }
