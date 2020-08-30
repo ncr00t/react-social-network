@@ -1,0 +1,8 @@
+.item {
+  background: white;
+  width: 512px;
+  height: 512px;
+  box-shadow: 0 0 10px gray;
+  padding: 20px;
+  margin-top: 10px;
+}

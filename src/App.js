@@ -10,7 +10,7 @@ function App() {
     <div className='wrapper'>
       <Header />
       <NavBar />
-      <Account />
+      <Account username='John Smith'/>
     </div>
   );
 }
